@@ -1,0 +1,46 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+    background-color: #131313;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2a2a2a; /* Border around the button group */
+    border-radius: 8px; /* Rounded corners for the border */
+    padding: 4px; /* Spacing between the buttons and the border */
+}
+
+.navButton {
+    padding: 12px 20px; /* Increased padding inside the buttons */
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #2b2b2b; /* Button background color */
+    border: none;
+    border-radius: 4px; /* Rounded corners for individual buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navButton:not(:last-child) {
+    margin-right: 10px; /* Increased margin between buttons */
+}
+
+.navButton:hover {
+    background-color: white;
+    color: #131313;
+}
